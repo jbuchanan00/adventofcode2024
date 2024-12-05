@@ -1,0 +1,1 @@
+export declare function readFile(fileName: string): string;

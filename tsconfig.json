@@ -9,12 +9,10 @@
 
     /* Type Checking */
     "strict": true,
-    "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
+    "skipLibCheck": true,                                 /* Skip type checking all .d.ts files. */
+    "rootDir": "./src",
+    "outDir": "./dist",
   },
-  "rootDir": ".",
-  "outDir": "./dist",
-  "scripts": {
-    "build": "node_modules/.bin/tsc",
-    "dev": "nodemon src/index.ts"
-  }
+  
+  
 }
